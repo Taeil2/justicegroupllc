@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  max-width: 500px;
+  width: 100%;
+  padding: 50px 0;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  color: #fff;
+  font-size: 18px;
+  text-align: left;
+}
+input[type="text"], input[type="email"], textarea, input[type="submit"] {
+  width: 100%;
+}
+
+input[type="text"], input[type="email"], textarea {
+  margin-bottom: 10px;
+}
+input:focus, textarea:focus {
+    outline: none;
+}
+input[type="text"], input[type="email"], textarea {
+  border: 0;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 10px 12px;
+  margin-bottom: 20px;
+  color: #181818;
+}
+textarea {
+  height: 200px;
+}
+input[type="submit"] {
+  border: 0;
+  border-radius: 5px;
+  background: #2f9a93;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 0;
+  cursor: pointer;
+}
+.contact-section p {
+  color: #fff;
+}
