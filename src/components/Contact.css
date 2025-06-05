@@ -47,6 +47,9 @@ input[type="submit"] {
   padding: 10px 0;
   cursor: pointer;
 }
+.contact-section h2 {
+  color: #fff;
+}
 .contact-section p {
   color: #fff;
 }
