@@ -1,33 +1,20 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <section>
+        <h1>Welcome to Justice Group LLC</h1>
+        <h2>Site Under Construction</h2>
+      </section>
+      <section>
+        <p>At Justice Group LLC, we challenge injustice at its roots. Our firm is built for those who have been failed by the system—people harmed by outdated laws, unprotected ideas, broken relationships, or unchecked harassment.</p>
+        <p>We practice bad law—the pursuit of justice for those harmed by others. Whether through theft, abuse, fraud, or violence, we represent victims and ensure wrongdoers are held accountable under the law. We protect the creators and thinkers through origin and idea law, protecting the ownership of original work and intellectual property. In the complex world of personal relationships, we support clients in deeply personal legal matters. When it comes to harassment, we fight for those subjected to mistreatment in workplaces, homes, or public spaces—helping them regain their voice and safety.</p>
+        <p>At Justice Group LLC, we believe the law should protect, empower, and restore. We’re not just your legal team—we’re your partner in the pursuit of what’s right.</p>
+      </section>
+      <section>
+
+      </section>
     </>
   )
 }
